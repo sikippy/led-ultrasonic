@@ -29,7 +29,7 @@ void insertArray(int index,int pin, int distance ){
    lP->distance = distance;
    lP->next = head; 
    head =lP;
-   pinMode(arrayLed[index][0], OUTPUT);
+   pinMode(pin, OUTPUT);
   }
  
  void setHighLow(int param,int delayTime,int highLow){
